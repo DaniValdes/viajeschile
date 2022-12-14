@@ -9,3 +9,15 @@ body{
 .presentacion{
     color:white
 }
+
+.card-body{
+    background-color: #00ffff;
+}
+
+.formulario{
+    color:white
+}
+
+.enviar{
+    color: white;
+}
