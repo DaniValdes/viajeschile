@@ -36,3 +36,12 @@ html{
     color:white;
     font-family: 'Montserrat', sans-serif;
 }
+
+.fa-brands{
+    color: white;
+}
+
+.btn-info{
+    background-color: #29A4AC;
+    border-color: #29A4AC;
+}
