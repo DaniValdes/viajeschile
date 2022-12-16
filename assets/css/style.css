@@ -10,9 +10,6 @@ body{
     color:white
 }
 
-.card-body{
-    background-color: #29A4AC;
-}
 
 .formulario{
     color:white
@@ -41,7 +38,7 @@ html{
     color: white;
 }
 
-.btn-info{
+/* .btn-info{
     background-color: #29A4AC;
     border-color: #29A4AC;
-}
+} */

@@ -10,4 +10,11 @@ $(document).ready(function(){
             3000
         )
     })
+
+})
+
+$(function(){
+
+    $('[data-bs-toggle="tooltip"]').tooltip()
+
 })
