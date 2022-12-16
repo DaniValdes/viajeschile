@@ -1,6 +1,6 @@
-*{
+/* *{
     width: 100%;
-}
+} */
 
 body{
     background-color: black;
@@ -26,4 +26,8 @@ body{
     position: fixed;
     width: 100vw;
     z-index: 1;
+}
+
+html{
+    scroll-behavior: auto !important;
 }
