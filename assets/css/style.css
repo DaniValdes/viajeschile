@@ -11,7 +11,7 @@ body{
 }
 
 .card-body{
-    background-color: #00ffff;
+    background-color: #1BC9DE;
 }
 
 .formulario{
@@ -20,4 +20,10 @@ body{
 
 .enviar{
     color: white;
+}
+
+.navbar{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
