@@ -1,3 +1,5 @@
+/* SMOOTH SCROLL */
+
 $(document).ready(function(){
 
     $("a").click(function(){
@@ -13,8 +15,15 @@ $(document).ready(function(){
 
 })
 
+/* TOOLTIP A CARDS DE SECCION DESTACADOS */
 $(function(){
 
     $('[data-bs-toggle="tooltip"]').tooltip()
 
 })
+
+/* POPOVER AL BOTON ENVIAR EN SECCION CONTACTO */
+$(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+

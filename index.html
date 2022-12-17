@@ -25,7 +25,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black">
             <div class="container">
                 <img src="./assets/img/viajes.svg" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">
@@ -80,10 +80,10 @@
     </header>
 
     <div class="container d-none d-sm-block" style="color: white">
-        <h3 class="presentacion text-center pt-5" id="quienes-somos">¿QUIÉNES SOMOS?</h3>
-        <hr>
+        <h3 class="presentacion text-center pt-5 border-bottom border-white pb-3 fuente" id="quienes-somos">¿QUIÉNES SOMOS?</h3>
+        
 
-        <div class="row">
+        <div class="row pt-3">
             <div class="col-xs-12 col-md-6 col-lg-4 d-flex flex-column">
                 <div class="text-center bg-info py-2">
                     <i class="fa-solid fa-plane fa-xl py-2"></i>
@@ -126,8 +126,7 @@
     </div>
     <section>
         <div class="container">
-            <h3 class="presentacion text-center pt-5 fuente" id="destacados">DESTACADOS</h3>
-            <hr>
+            <h3 class="presentacion text-center pt-5 fuente border-bottom border-white pb-3" id="destacados">DESTACADOS</h3>
             <div class="row mb-2">
                 <div class="col-lg-3 py-3 px-4">
                     <div class="card h-100 bg-info">
@@ -179,11 +178,10 @@
         </div>
     </section>
 
-    <div>
-        <h3 class="presentacion text-center pt-5 fuente" id="contacto">CONTACTO</h3>
-        <hr>
+    <div class="container">
+        <h3 class="presentacion text-center pt-5 fuente border-bottom border-white pb-3" id="contacto">CONTACTO</h3>
         <div class="container">
-            <div class="mb-3">
+            <div class="mb-3 pt-3">
                 <label for="exampleFormControlInput1" class="formulario form-label fuente">Nombre</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=>
             </div>
@@ -196,7 +194,7 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <button type="button" class="enviar btn btn-info fuente">Enviar</button>
+            <button type="button" class="enviar btn btn-lg btn-info fuente" data-toggle="popover" title="Hemos recibido tu mensaje">Enviar</button>
         </div>
     </div>
     <footer style="background-color: #0dcaf0;">
